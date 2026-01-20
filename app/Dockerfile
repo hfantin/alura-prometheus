@@ -1,4 +1,5 @@
-FROM openjdk:8-jdk-alpine
+#FROM openjdk:8-jdk-alpine
+FROM adoptopenjdk/openjdk8:jdk8u372-b07-alpine-slim
 
 RUN addgroup -S spring && adduser -S spring -G spring
 
