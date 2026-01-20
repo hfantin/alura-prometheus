@@ -1,3 +1,4 @@
 /.idea/alura-prometheus.iml
 /app/target/
 /.idea/
+/prometheus/prometheus_data/
